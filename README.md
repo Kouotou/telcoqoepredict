@@ -96,3 +96,81 @@ QoePredictModel/
 
 ## 🎓 Academic Context
 This work is conducted as part of a Master's degree requirement in Telecommunications and Network Engineering. It bridges the gap between raw network statistics (QoS) and human perception (QoE), providing actionable insights for network operators in Cameroon to improve service quality.
+
+# Fraud Detection Using Machine Learning for Financial Transactions
+
+
+### Project Overview
+
+This module focuses on the detection of fraudulent financial transactions using Machine Learning techniques. The objective is to analyze transaction characteristics and automatically identify suspicious activities that may indicate fraud.
+
+The system employs supervised learning algorithms trained on historical transaction data to classify transactions as either legitimate or fraudulent. An interactive Streamlit dashboard has been developed to allow real-time fraud prediction and demonstration of the trained model.
+
+### Features
+
+* Data preprocessing and cleaning of transaction records.
+* Exploratory Data Analysis (EDA) for fraud pattern identification.
+* Machine Learning-based fraud classification.
+* Model serialization using Joblib.
+* Interactive Streamlit web application for real-time predictions.
+* User-friendly interface for transaction simulation and fraud detection.
+
+### Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Joblib
+* Streamlit
+* Matplotlib
+* Seaborn
+
+### Running the Fraud Detection Module
+
+#### 1. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 2. Train the Model
+
+Open the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Run all cells in:
+
+```text
+analysis_model.ipynb
+```
+
+This generates:
+
+```text
+fraud_detection_pipeline.pkl
+```
+
+#### 3. Launch the Streamlit Dashboard
+
+```bash
+streamlit run fraud_detection.py
+```
+
+The application will open in the browser and allow users to enter transaction details and receive fraud predictions in real time.
+
+### Repository Files
+
+```text
+analysis_model.ipynb          # Data analysis and model training
+fraud_detection.py            # Streamlit application
+fraud_detection_pipeline.pkl  # Trained machine learning model
+requirements.txt             # Project dependencies
+```
+
+### Academic Context
+
+This work contributes to the application of Artificial Intelligence and Machine Learning in financial security systems. By detecting suspicious transaction patterns, the system assists organizations in reducing financial losses and improving transaction monitoring efficiency.
