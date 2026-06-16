@@ -23,7 +23,7 @@ The repository includes:
 - **Feature Engineering:** Advanced telecom KPIs (e.g., `Throughput_Ratio`, `Network_Instability_Index`).
 - **Machine Learning Models:** Comparisons across Linear models, Random Forest, XGBoost, CatBoost, LightGBM, and SVR.
 - **Explainable AI (SHAP):** Transparent predictions showing exactly how Jitter, Latency, and Packet Loss affect a user's MOS (Mean Opinion Score).
-- **Streamlit Dashboard:** A production-ready UI for real-time QoE simulation.
+- **Streamlit Dashboard:** A production-ready UI for real-time QoE simulations.
 
 ---
 
